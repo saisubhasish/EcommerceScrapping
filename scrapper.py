@@ -96,9 +96,6 @@ def search_and_download(company: str, driver_path: str, target_path='./images', 
         counter += 1
 
 
-
-
-
 DRIVER_PATH = r'D:\FSDS-iNeuron\10.Projects-DS\Image_Scrapper\chromedriver.exe'
 company = 'flipkart'
 
