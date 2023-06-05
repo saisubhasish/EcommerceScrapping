@@ -7,6 +7,7 @@ from selenium import webdriver
 def fetch_image_urls(comapny: str, max_links_to_fetch: int, wd: webdriver, sleep_between_interactions: int = 1):
     '''
     This is the function to scrap images from website
+    and store it to the local
     '''
     def scroll_to_end(wd):
         wd.execute_script("window.scrollTo(0, document.body.scrollHeight);")
